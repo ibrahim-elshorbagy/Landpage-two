@@ -371,10 +371,20 @@ text-align: center;
   right: 0;
   z-index: -1;
 
+  box-shadow: 10px 10px 12px rgb(174 172 172);
 
-    
   }
-
+  .services .services-content .image::after{
+    position: absolute;
+    content: '';
+    width: 56%;
+    height: 98%;
+    top: 0;
+    left: 50px;
+    box-shadow: 0px 0px 12px 5px rgb(174 172 172);
+    z-index: -1;
+    background: transparent;
+  }
 .services .services-content .image img {
     width: 260px;
 }
